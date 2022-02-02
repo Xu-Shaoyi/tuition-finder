@@ -1,0 +1,56 @@
+/* .filterHandler {
+  font-size: large;
+  color: black;
+  position: relative;
+} */
+
+.header {
+  font-size: xx-large;
+}
+
+.filterButton {
+  font: inherit;
+  cursor: pointer;
+  background-color: #312c2e;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #312c2e;
+  border-radius: 4px;
+  position: absolute;
+  margin-left: 34.5rem;
+  margin-top: -4rem;
+}
+
+.resetButton {
+  font: inherit;
+  font-weight: normal;
+  font-size: small;
+  cursor: pointer;
+  background-color: #312c2e;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #312c2e;
+  border-radius: 4px;
+  position: absolute;
+  margin-left: 37rem;
+  bottom: 25.5rem;
+}
+
+.filterButton:hover,
+.filterButton:active,
+.resetButton:hover,
+.resetButton:active {
+  background-color: #49011c;
+  border-color: #49011c;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px){
+  .filterButton {
+    margin-left: 70%;
+  }
+
+  .resetButton {
+    margin-left: 77.5%;
+    margin-bottom: 34.5%;
+  }
+}

@@ -1,0 +1,63 @@
+.form {
+  padding: 2rem 2.6rem 2rem 2rem;
+  background-color: #dbdbdb;
+  border-radius: 2%;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font: inherit;
+  color: black;
+  font-weight: 250;
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-left: 0.1rem;
+}
+
+.control input,
+.control textarea {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #dbdbdb;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+.control select {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #dbdbdb;
+  padding: 0.25rem;
+}
+
+.actions {
+  margin-top: 1rem;
+  margin-left: 31.8rem;
+}
+
+.actions input {
+  font: inherit;
+  cursor: pointer;
+  background-color: #312c2e;
+  color: white;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+  border: 1px solid #312c2e;
+  border-radius: 4px;
+}
+
+.actions input:hover,
+.actions input:active {
+  background-color: #49011c;
+  border-color: #49011c;
+}
+
+@media all and (max-width: 480px){
+  .actions {
+    margin-left: 76.5%;
+  }
+}

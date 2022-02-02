@@ -1,0 +1,36 @@
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 33vh;
+  left: calc(50% - 15rem);
+}
+
+.btn {
+  font: inherit;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #312c2e;
+  color: white;
+  border: 1px solid #312c2e;
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  background-color: #752040;
+  border-color: #752040;
+}
+
+@media all and (max-width: 480px){
+  .modal{
+    width: 70%;
+    text-align: center;
+    margin-left: 19.5%;
+  }
+}

@@ -1,0 +1,41 @@
+.h2 {
+  margin-top: 0.5rem;
+  padding: 0rem;
+}
+
+.label {
+  font-weight: lighter;
+  position: relative;
+  margin-top: 0rem;
+}
+
+.select {
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.button {
+  font: inherit;
+  font-weight: normal;
+  font-size: small;
+  cursor: pointer;
+  background-color: #312c2e;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #312c2e;
+  border-radius: 4px;
+  margin-left: 34rem;
+  margin-bottom: 1rem;
+}
+
+button:hover,
+button:active {
+  background-color: #410019;
+  border-color: #410019;
+}
+
+@media all and (max-width: 480px){
+  .button {
+    margin-left: 83%;
+  }
+}

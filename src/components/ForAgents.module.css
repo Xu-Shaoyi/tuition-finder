@@ -1,0 +1,9 @@
+.agents {
+    color: black;
+    font-size: larger;
+    font-weight: 200;
+    text-align: center;
+    padding: 1%;
+    background-color: #dbdbdb;
+    border-radius: 7px;
+}

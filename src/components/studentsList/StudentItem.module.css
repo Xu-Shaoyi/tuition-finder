@@ -1,0 +1,34 @@
+.item {
+  margin: 1rem 0rem;
+}
+
+.name {
+  color: black;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.7rem;
+}
+
+.h4 {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  border-radius: 4px;
+  background-color: #d8d5d5;
+  padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+  margin-top: 0;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.p{
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.pBottom {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+}
