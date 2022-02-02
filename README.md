@@ -1,6 +1,6 @@
 # How To Download and Run `tuition-finder`
 1. Type `git clone https://github.com/Xu-Shaoyi/tuition-finder` into your terminal
-2. cd into `tuition-finder` 
+2. `cd` into `tuition-finder` 
 3. Type `npm install`
 4. Type `npm start`
 
