@@ -1,3 +1,10 @@
+# How To Download and Run `tuition-finder`
+1. Type `git clone https://github.com/Xu-Shaoyi/tuition-finder` into your terminal
+2. cd into `tuition-finder` 
+3. Type `npm install`
+4. Type `npm start`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
