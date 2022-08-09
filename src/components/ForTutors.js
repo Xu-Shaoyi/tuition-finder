@@ -2,11 +2,10 @@ import React from "react";
 import { useEffect } from "react";
 import useState from "react-usestateref";
 import StudentsList from "./studentsList/StudentsList";
-import LevelFilter from "./filter/LevelFilter";
 import FilterModal from "./filter/FilterModal";
 import classes from "./ForTutors.module.css";
 
-const ForTutors = () => {
+const ForTutors = (props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [showStudList, setShowStudList] = useState(true);
   const [showButton, setShowButton] = useState(true);
@@ -131,12 +130,16 @@ const ForTutors = () => {
           onSubmit={setDoneHandler}
         />
       )}
-      {done && <LevelFilter students={ref.current} />}
-      {done && (
-        <button className={classes.resetButton} onClick={resetHandler}>
-          Reset
-        </button>
-      )}
+      {done && 
+      <div>
+        <div className={classes.filterStudHeader}>
+          <h1 className={classes.h1}>Filtered Students</h1>
+          <button className={classes.resetButton} onClick={resetHandler}>
+            Reset
+          </button>
+        </div>
+        <StudentsList students={ref.current} />
+      </div>}
     </section>
   );
 };

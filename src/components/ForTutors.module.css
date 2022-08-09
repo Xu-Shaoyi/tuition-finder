@@ -8,6 +8,13 @@
   font-size: xx-large;
 }
 
+.filterStudHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .filterButton {
   font: inherit;
   cursor: pointer;
@@ -28,12 +35,10 @@
   cursor: pointer;
   background-color: #312c2e;
   color: white;
-  padding: 0.2rem 0.5rem;
   border: 1px solid #312c2e;
   border-radius: 4px;
-  position: absolute;
-  margin-left: 37rem;
-  bottom: 25.5rem;
+  padding: 5px 7px;
+  height: fit-content;
 }
 
 .filterButton:hover,
